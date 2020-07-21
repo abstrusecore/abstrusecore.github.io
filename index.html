@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet"> 
+  <title>abstruseCore</title>
+</head>
+
+
+<body style="font-family:'Press Start 2P', monospace; font-size: 9.5px; word-spacing: -5px;" class="bg-dark">
+  <!-- Navbar Component -->
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark" style="background-color: black;">
+    <a class="navbar-brand" href="#"><img src="./anim/gif1.gif" width="64px" height="64px" alt="the abstruse core"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active mx-3">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link about" href="https://abstrusecore.github.io/OrbitWars/" target="_blank">Games</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="https://abstrusecore.bandcamp.com/" target="_blank">Music</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" a href="mailto:abstrusecore@gmail.com" target="_blank">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id='home'>
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid" style="background-color: #150e18">
+    <div class="text-center my-5 toptext">
+      <h2 class="display-5">Abstruse Core</h2>
+      <p>Web/Game Developer</p>
+    </div>
+  </div>
+
+      <!-- Meet the Team Section -->
+      <div class="row rounded-top" id="gallery">
+        <div class="col">
+          <h3 class="text-center display-5">Projects</h3>
+        </div>
+      </div>
+  
+      <!-- Team Pictures Carousel -->
+      <div class="row rounded-bottom">
+        <div class="col">
+          <!-- Carousel Component -->
+          <div id="carouselExampleControls" class="carousel slide w-50 mx-auto my-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://abstrusecore.github.io/factCore/" target="_blank"><img src="./factCore.png" class="d-block w-100" alt="Project 1"></a>
+                <div class="carousel-caption">
+                  <p class="bg-dark rounded-pill">Project 1: <span class="font-weight-light">factCore</span></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://abstrusecore.github.io/asciiCore/" target="_blank"><img src="./asciiCore.png" class="d-block w-100" alt="Project 2"></a>
+                <div class="carousel-caption">
+                  <p class="bg-dark rounded-pill">Project 2: <span class="font-weight-light">asciiLibrary</span></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://abstrusecore.github.io/guitarCore/" target="_blank"><img src="./guitarCore.png" class="d-block w-100" alt="Project 3"></a>
+                <div class="carousel-caption">
+                  <p class="bg-dark rounded-pill">Project 3: <span class="font-weight-light">guitarCore</span></p>
+                </div>
+              </div>
+              <!-- <div class="carousel-item">
+                <a href="http://localhost:52330/Angular/index.html#/" target="_blank"><img src="./exploreCore.png" class="d-block w-100" alt="Project 3"></a>
+                <div class="carousel-caption">
+                  <p class="bg-dark rounded-pill">Project 4: <span class="font-weight-light">createCore(WIP)</span></p>
+                </div>
+              </div> -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+    <hr>
+  <!-- Container -->
+  <div class="container" id="about">
+    <!-- Quote Section -->
+    <div class="row">
+      <div class="col my-5 text-center">
+        <h4 class="font-italic font-weight-light">"Feel free to browse, but try not to carouse!"</h4>
+        <p class="font-weight-bold font-italic">-Tom Nook, <span class="font-weight-light">Animal Crossing</span></p>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Why Adhoc? Text -->
+    <div class="row projects">
+      <div class="col">
+        <h2 class="display-5 text-center" id="why">WIP</h2>
+        <h4 class="display-5 text-center">(work in progress)</h4>
+      </div>
+    </div>
+
+    <!-- Image Reasons Section -->
+    <div class="row justify-content-center">
+      <div class="contact">
+        <img src="anim/gif1.gif">
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    2020 Abstruse Core &copy;
+  </footer>
+</main>
+
+  <!-- Bootstrap's JavaScript Files -->
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+  </script>
+  <script src="./main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>

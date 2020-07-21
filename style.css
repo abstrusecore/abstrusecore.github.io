@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+html {
+    font-size: 12px;
+}
+}
+@media only screen and (min-width: 600px) {
+html {
+    font-size: 14px;
+}
+}
+
+main {
+    top: 75px;
+    position: relative;
+}
+.proj,
+.contact {
+    display: none;
+}
+.link {
+    font-size: 1rem;
+}
+.fun {
+    color: #A5D9A6;
+    cursor: pointer;
+}
+.projects {
+    margin: 4rem 2rem;
+}
+#gallery {
+    margin-top: 4rem;
+}
+.carousel {
+    border: 3px solid #A5D9A6;
+}
+a {
+    color: #A5D9A6;
+}
+a:hover {
+    color: #6B663D;
+}
+.toptext {
+    color: #bc4be6;
+}
+#home {
+    background-color: #172017;
+    color: #f0e69a;
+}
