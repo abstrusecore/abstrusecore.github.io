@@ -2,14 +2,49 @@
 html {
     font-size: 12px;
 }
+
 }
 @media only screen and (min-width: 600px) {
 html {
     font-size: 14px;
 }
+
 }
-body {
+
+#wrapper {
     overflow-x: hidden;
+    position: relative;
+}
+
+#why {
+    margin: auto 1rem;
+}
+#me {
+    width: 100%;
+    height: auto;
+}
+.contact {
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    border: 0.35rem solid #A5D9A6;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 4px black;
+    padding: 0.5rem;
+}
+
+button:hover {
+    background-color: rgb(41, 41, 41);
+    color: rgb(216, 216, 216);
+}
+button:active {
+    background-color: rgb(161, 161, 161);
+    transform: translateY(3.5px);
+    color: rgb(54, 54, 54);
+    box-shadow: 0px 6.5px 4px black;
 }
 
 main {
@@ -19,6 +54,7 @@ main {
 .proj,
 .contact {
     display: none;
+    margin: auto;
 }
 .link {
     font-size: 1rem;
@@ -29,18 +65,32 @@ main {
 }
 .projects {
     margin: 4rem 2rem;
+    text-align: center;
 }
 #gallery {
     margin-top: 4rem;
 }
 .carousel {
-    border: 3px solid #A5D9A6;
+    border: 0.25rem solid #A5D9A6;
+    border-radius: 20px;
+}
+.carousel-inner {
+    border-radius: 20px;
+}
+.abstruse{
+    text-shadow: 0px 2px  rgb(56, 250, 56);
+}
+#webdev {
+    color: rgb(56, 250, 56);
+}
+#about {
+    text-shadow: 0px 2px 5px rgb(255, 143, 255);
 }
 a {
     color: #A5D9A6;
 }
 a:hover {
-    color: #6B663D;
+    color: #fffad4;
 }
 .toptext {
     color: #bc4be6;

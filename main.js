@@ -1,12 +1,12 @@
 $(document).ready(() =>{
   $('.projects').on('click', () => {
-    $('.contact').slideToggle(700);
+    if (parseInt(window.innerWidth) >= 640  || parseInt(window.clientWidth) < 640 ) {
+      document.getElementById("me").src = "./Resume.png";
+    } else {
+      document.getElementById("me").src = "./longResume.png";
+    }
+    $('.contact').fadeToggle(700);
   });
-
-  $('#why').on('mouseover', event => {
-    $(event.currentTarget).toggleClass('fun');
-  }).on('mouseleave', event => {
-    $(event.currentTarget).toggleClass('fun');})
 
   /* $('.notification').on('click', event => {
     $(event.currentTarget).toggleClass('active');
