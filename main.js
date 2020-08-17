@@ -6,7 +6,18 @@ $(document).ready(() =>{
       document.getElementById("me").src = "./images/longResume.png";
     }
     $('.contact').fadeToggle(700);
+
   });
+
+  $('.mail').on('click', () => {
+    if (parseInt(window.innerWidth) >= 640  || parseInt(window.clientWidth) < 640 ) {
+      $('#email').fadeToggle();
+    } else {
+      $('#email').slideToggle();
+    }
+
+  });
+
   /* $('.notification').on('click', event => {
     $(event.currentTarget).toggleClass('active');
   })  */

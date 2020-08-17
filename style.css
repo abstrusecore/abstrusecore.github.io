@@ -73,6 +73,12 @@ main {
     top: 75px;
     position: relative;
 }
+#email {
+    display: none;
+    color: white;
+    padding: 16px 0;
+    margin: auto;
+}
 .proj,
 .contact {
     display: none;
