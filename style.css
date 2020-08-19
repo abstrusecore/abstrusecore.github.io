@@ -73,6 +73,9 @@ main {
     top: 75px;
     position: relative;
 }
+hr {
+    background-color: white;
+}
 #email {
     display: none;
     color: white;
@@ -97,6 +100,7 @@ main {
 }
 #gallery {
     margin-top: 4rem;
+    text-shadow: 0px 2px 5px rgb(255, 143, 255);
 }
 .carousel {
     border: 0.25rem solid #A5D9A6;
@@ -112,7 +116,11 @@ main {
     color: rgb(56, 250, 56);
 }
 #about {
-    text-shadow: 0px 2px 5px rgb(255, 143, 255);
+    text-shadow: 0px 2px 3px rgb(255, 143, 255);
+    width: 50%;
+}
+#quote {
+    color: #bc4be6;;
 }
 a {
     color: #A5D9A6;
