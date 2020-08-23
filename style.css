@@ -1,24 +1,41 @@
-@media only screen and (max-width: 600px) {
 html {
-    font-size: 12px;
-}
-#wrapper {
-    overflow-x: hidden;
-    position: relative;
-}
-
-}
-@media only screen and (min-width: 600px) {
-html {
-    font-size: 14px;
     cursor: url(./images/cursor1.png) 4 4, auto;
 }
-#wrapper {
-    overflow-x: hidden;
-    position: relative;
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 11px;
+    }
+    #wrapper {
+        overflow-x: hidden;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+    #wrapper {
+        overflow-x: hidden;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 13.5px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 16.5px;
+    }
 }
 
-}
 
 #why {
     margin: auto 1rem;
