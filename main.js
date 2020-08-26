@@ -22,6 +22,19 @@ $(document).ready(() =>{
   $('.jumbotron').slideDown(1250);
   $('.nav-item').fadeIn(1250);
 
+  $('#toggle').on('mousedown', () => {
+    document.getElementById("bImg").src = "./collapse2.png";
+  }).on('mouseup', () => {
+    document.getElementById("bImg").src = "./collapse1.png";
+  });
+
+  $('#toggle').on('touchstart', () => {
+    console.log("touch");
+    document.getElementById("bImg").src = "./collapse2.png";
+  }).on('touchend', () => {
+    document.getElementById("bImg").src = "./collapse1.png";
+  });
+
   /* $('.notification').on('click', event => {
     $(event.currentTarget).toggleClass('active');
   })  */
