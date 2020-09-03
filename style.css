@@ -1,5 +1,5 @@
 html {
-    cursor: url(./cursorIso.png) 10 10, auto;
+    cursor: url(./images/cursorIso.png) 10 10, auto;
 }
 
 
@@ -71,7 +71,7 @@ html {
     box-shadow: 0px 10px 4px black;
     padding: 0.5rem;
     transition: transform 0.1s, box-shadow 0.1s;
-    cursor: url(./pointerIso.png) 10 10, pointer;
+    cursor: url(./images/pointerIso.png) 10 10, pointer;
 }
 
 .b:hover {
@@ -87,7 +87,7 @@ html {
     color: rgb(54, 54, 54);
     box-shadow: 0px 10px 4px black;
     transition: transform 0.1s, box-shadow 0.1s;
-    cursor: url(./pointerIso.png) 10 10, pointer;
+    cursor: url(./images/pointerIso.png) 10 10, pointer;
 }
 
 main {
@@ -113,7 +113,7 @@ hr {
 }
 .fun {
     color: #A5D9A6;
-    cursor: url(./pointerIso.png) 10 10, pointer;
+    cursor: url(./images/pointerIso.png) 10 10, pointer;
 }
 .projects {
     margin: 4rem 2rem;
@@ -148,10 +148,10 @@ hr {
 }
 a {
     color: #A5D9A6;
-    cursor: url(./pointerIso.png) 10 10, pointer;
+    cursor: url(./images/pointerIso.png) 10 10, pointer;
 }
 a:active {
-    cursor: url(./pointerIso.png) 10 10, pointer;
+    cursor: url(./images/pointerIso.png) 10 10, pointer;
 }
 a:hover {
     color: #fffad4;

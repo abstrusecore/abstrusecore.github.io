@@ -6,7 +6,7 @@ $(document).ready(() =>{
     } else {
       document.getElementById("me").src = "./images/longResume.png";
     }
-    $('.contact').fadeToggle(700);
+    $('.contact').slideToggle(700);
 
   });
 
@@ -23,16 +23,16 @@ $(document).ready(() =>{
   $('.nav-item').fadeIn(1250);
 
   $('#toggle').on('mousedown', () => {
-    document.getElementById("bImg").src = "./collapse2.png";
+    document.getElementById("bImg").src = "./images/collapse2.png";
   }).on('mouseup', () => {
-    document.getElementById("bImg").src = "./collapse1.png";
+    document.getElementById("bImg").src = "./images/collapse1.png";
   });
 
   $('#toggle').on('touchstart', () => {
     console.log("touch");
-    document.getElementById("bImg").src = "./collapse2.png";
+    document.getElementById("bImg").src = "./images/collapse2.png";
   }).on('touchend', () => {
-    document.getElementById("bImg").src = "./collapse1.png";
+    document.getElementById("bImg").src = "./images/collapse1.png";
   });
 
   /* $('.notification').on('click', event => {
