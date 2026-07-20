@@ -19,7 +19,7 @@ $(document).ready(() =>{
 
   });
 
-  $('.jumbotron').slideDown(1250);
+  // $('.jumbotron').slideDown(1250);
   $('.nav-item').fadeIn(1250);
 
   $('#toggle').on('mousedown', () => {
